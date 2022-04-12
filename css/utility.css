@@ -38,7 +38,7 @@ button, input[type = "submit"]{
     line-height: 1.6;
     letter-spacing: 1px;
 }
-.form-control{
+.form-control .box{
     width: 100%;
     margin: 0.6rem 0;
     max-width: 500px;
