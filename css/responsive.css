@@ -89,7 +89,7 @@
             -ms-flex-align: stretch;
                 align-items: stretch;
     }
-    .header-form .form-control, .header-form .btn{
+    .header-form .form-control, .header-form .btn .box{
         margin: 0 0.5rem;
     }
     /* navbar */
