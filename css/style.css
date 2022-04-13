@@ -309,7 +309,7 @@ padding: 10px;
     font-size: 20px;
     background-color: transparent;
     color: #fff;
-    border: ;
+    border:solid;
 }
 .header-form input:not([type = "submit"])::-webkit-input-placeholder{
     color: #fff;
