@@ -546,6 +546,7 @@ footer .site-brand{
 .subscribe-form form input{
     width: 100%;
     max-width: 300px;
+    height: 68px;
 }
 .subscribe-form .form-control{
     border-color: rgba(255, 255, 255, 0.3);
