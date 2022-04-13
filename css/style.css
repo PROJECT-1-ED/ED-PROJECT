@@ -846,6 +846,7 @@ header.header-sm{
     color: #000;
     display: block;
     margin: 1.6rem auto;
+    border: solid black;
 }
 .contact-form .btn{
     display: block;
