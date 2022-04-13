@@ -265,7 +265,7 @@ header{
             flex-direction: column;
         margin-top: 1.8rem;
 }
-.box .btn .form-control{
+.box  .form-control{
 box-sizing: content-box;
 width: 80%;
 padding: 10px;
@@ -294,10 +294,7 @@ padding: 10px;
 .btn{
     width: 50%;
     padding: 19px;
-    height: auto;
-    
-    
-    
+    height: auto;    
 }
 
  
