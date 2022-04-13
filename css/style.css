@@ -241,17 +241,24 @@ header{
 .header-form h3{
     font-size: 1.2rem;
 }
-.box .btn .form-control{
+.header-form form{
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     margin-top: 1.8rem;
 }
+
 .header-form form .form-control{
     -webkit-box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4);
             box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4);
-    
+}
+.box .btn .form-control {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+        margin-top: 1.8rem;
 }
 .box .btn .form-control{
 box-sizing: content-box;
@@ -270,11 +277,23 @@ padding: 10px;
     -webkit-appearance: button;
     appearance: button;
     outline: none;
+    /* scroll-padding: 12px */
+    
+ } 
+.box select{
+     background-color: ;
+ }
+ 
+.btn{
+    width: 80%;
+    padding: 20px;
+    height: 65px;
+    
 }
-
 .header-form input[type = "date"]{
     text-transform: uppercase;
 }
+
 .header-form input:not([type = "submit"])::-webkit-input-placeholder{
     color: #fff;
 }
@@ -294,7 +313,7 @@ padding: 10px;
     -webkit-filter: invert(1);
             filter: invert(1);
 }
-.header-form .btn .form-control{
+.header-form .btn{
     margin-top: 0.8rem;
 }
 
@@ -866,6 +885,3 @@ header.header-sm{
     display: block;
     margin-bottom: 1rem;
 }
-
-
-
