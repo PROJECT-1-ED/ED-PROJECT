@@ -80,7 +80,7 @@
     .header-title h1{
         font-size: 4rem;
     }
-    .header-form form .form-control{
+    .header-form form{
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
@@ -89,7 +89,7 @@
             -ms-flex-align: stretch;
                 align-items: stretch;
     }
-    .header-form .form-control, .header-form .btn .box{
+    .header-form .form-control, .header-form .btn{
         margin: 0 0.5rem;
     }
     /* navbar */
