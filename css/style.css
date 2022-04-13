@@ -294,7 +294,7 @@ padding: 10px;
     -webkit-filter: invert(1);
             filter: invert(1);
 }
-.header-form .btn{
+.header-form .btn .form-control{
     margin-top: 0.8rem;
 }
 
