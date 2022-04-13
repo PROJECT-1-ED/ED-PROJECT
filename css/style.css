@@ -1,3 +1,4 @@
+
 :root{
     --green: #1ec6b6;
     --light-grey: #f7f7f7;
@@ -233,7 +234,7 @@ header{
     }
 }
 
-.header-form{
+.header-form {
     background: rgba(0, 0, 0, 0.5);
     padding: 3rem;
     border-radius: 0.2rem;
@@ -241,19 +242,71 @@ header{
 .header-form h3{
     font-size: 1.2rem;
 }
-.header-form form{
+.header-form form .box .btn{
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     margin-top: 1.8rem;
 }
-.header-form form .form-control{
+.header-form form .form-control .box .btn{
     -webkit-box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4);
             box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4);
 }
+.header-form input[type = "text"]{
+    color: white;
+  
+  
+}
+.box .btn .form-control {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+        margin-top: 1.8rem;
+}
+.box .btn .form-control{
+box-sizing: content-box;
+width: 80%;
+padding: 10px;
+}
+
+
+ .box select { 
+    background-color: black;
+    color: white;
+    scrollbar-color: black;
+    padding: 20px;
+    width: 300px;
+    border: solid;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+    /* scroll-padding: 12px */
+    
+ } 
+ .box select{
+     background-color: ;
+ }
+ 
+.btn{
+    width: 80%;
+    padding: 20px;
+    height: 65px;
+    
+    
+    
+}
+
+ 
+  
 .header-form input[type = "date"]{
     text-transform: uppercase;
+    width: 400px;
+    padding: 20px;
+    font-size: 20px;
 }
 .header-form input:not([type = "submit"])::-webkit-input-placeholder{
     color: #fff;
@@ -269,6 +322,7 @@ header{
 }
 .header-form input:not([type = "submit"])::placeholder{
     color: #fff;
+
 }
 ::-webkit-calendar-picker-indicator{
     -webkit-filter: invert(1);
@@ -378,7 +432,7 @@ header{
 }
 
 /* testimonials */
-#testimonials{
+/* #testimonials{ 
     background-color: var(--light-grey);
 }
 .test-item{
@@ -420,39 +474,9 @@ header{
 }
 .test-item-info h3{
     font-size: 1rem;
-}
+}*/
 
-/* video */
-.video-wrapper{
-    height: 500px;
-    position: relative;
-}
-.video-wrapper video{
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-}
-#play-btn{
-    position: absolute;
-    z-index: 5;
-    width: 70px;
-    height: 70px;
-    background-color: var(--green);
-    color: #fff;
-    border: none;
-    border-radius: 50%;
-    font-size: 1.8rem;
-    padding-left: 0.4rem;
-    -webkit-transition: var(--trans);
-    -o-transition: var(--trans);
-    transition: var(--trans);
-}
-#play-btn:hover{
-    -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-            transform: scale(1.1);
-}
+
 
 /* footer */
 footer{
@@ -845,4 +869,4 @@ header.header-sm{
     font-size: 1.2rem;
     display: block;
     margin-bottom: 1rem;
-}
+} 
