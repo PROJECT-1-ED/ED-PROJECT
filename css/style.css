@@ -277,7 +277,7 @@ padding: 10px;
     color: white;
     scrollbar-color: black;
     padding: 20px;
-    width: 300px;
+    width: 200px;
     border: solid;
     font-size: 20px;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
@@ -292,7 +292,7 @@ padding: 10px;
  }
  
 .btn{
-    width: 44%;
+    width: 200px;
     padding: 30pxpx;
     height: 73px;
   
@@ -302,7 +302,7 @@ padding: 10px;
   
 .header-form input[type = "date"]{
     text-transform: uppercase;
-    width: 400px;
+    width: 200px;
     padding: 20px;
     font-size: 20px;
     background-color: transparent;
