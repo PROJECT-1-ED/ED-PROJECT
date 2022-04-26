@@ -41,6 +41,10 @@
 #navbar-show-btn:hover{
     opacity: 1;
 }
+}
+.fas{
+    color: #f7f7f7;
+}
 
 /* navbar side menu */
 #navbar-collapse{
