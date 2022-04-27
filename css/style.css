@@ -13,8 +13,10 @@
     padding: 1rem 0;
     z-index: 999;
 }
-.fas{
-    color: #f7f7f7;
+.fa, .fas{
+    font-weight: 900;
+    color: white;
+}
 }
 .navbar .container{
     -webkit-box-pack: justify;
