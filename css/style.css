@@ -13,6 +13,9 @@
     padding: 1rem 0;
     z-index: 999;
 }
+.fas{
+    color: #f7f7f7;
+}
 .navbar .container{
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -41,9 +44,6 @@
 #navbar-show-btn:hover{
     opacity: 1;
 }
-}
-.fas{
-    color: #f7f7f7;
 }
 
 /* navbar side menu */
